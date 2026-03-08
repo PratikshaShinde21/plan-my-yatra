@@ -1,4 +1,25 @@
-.main-logo-img{
-    width: 100px;
-    height: 100px;
+/* .main-hero-section{
+    background-image: url(./../images/home-bg-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.6;
+} */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+.main-hero-section{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url(./../images/home-bg-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
